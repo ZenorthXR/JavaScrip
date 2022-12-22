@@ -9,4 +9,4 @@ function logQuote(quote){
 }
 
 
-createQuote(" you will getting better!",logQuote); //1
+createQuote(" you will getting better!",logQuote); //เรียกใช้ที่เเรกตรงนี้
