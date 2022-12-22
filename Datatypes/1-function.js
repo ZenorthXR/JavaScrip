@@ -1,6 +1,6 @@
 // 1. Function Definition
 function printHello(name) {
-    console.log("Hello" + name );
+    console.log("Hello " + name );
     return name + " hello!";
 }
 
