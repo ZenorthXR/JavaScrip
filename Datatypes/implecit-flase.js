@@ -5,5 +5,5 @@ if (name) {
 
 } else {
     console.log('No name provided');
-}
 
+}
