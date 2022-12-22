@@ -6,5 +6,7 @@ function test(t) {
 }
 
 
-let x;
+let x = 'show me ur d***';
+let a = 25;
 console.log(test(x));
+console.log(test(a));

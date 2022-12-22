@@ -6,4 +6,4 @@ function getVowels(str) {
     return m.length;
 }
 
-console.log(getVowels("seeing"));
+console.log(getVowels("sEEIng"));
