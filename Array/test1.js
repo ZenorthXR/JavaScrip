@@ -12,7 +12,7 @@ function compare(){
             if (values1[index] == values3[i]){
                 answer = answer + values1[index] + " ";
             }
-            if (values1[index] == values2[i]) {
+            if ((values1[index] == values2[i]) && (values1 != 1) ) {
                 answer = answer + values1[index] + " ";
             }
         }
