@@ -1,7 +1,7 @@
 let values1 = ['Apple', 1 , false];
 let values2 = ['Fiers' , 2 , true];
 let values3 = ['Mars' , 9 , 'Apple'];
-const size = 3;
+const size = values1.length;
 
 let answer 
 
