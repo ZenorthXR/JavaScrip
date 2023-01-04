@@ -9,10 +9,10 @@ function compare(){
     let answer = "";
     for (let index = 0 ; index < size ; index++){
         for (let i = 0 ; i < size ; i++){
-            if (values1[index] == values3[i]){
+            if (values1[index] === values3[i]){
                 answer = answer + values1[index] + " ";
             }
-            if ((values1[index] == values2[i]) && (values1 != 1) ) {
+            if (values1[index] === values2[i]  ) {
                 answer = answer + values1[index] + " ";
             }
         }
