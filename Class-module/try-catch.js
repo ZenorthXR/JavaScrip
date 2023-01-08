@@ -35,6 +35,8 @@ try {
  } finally {
     console.log("Code that always will run");
  }
+
+ 
  function hello() {
     console.log("\n----Throwing Exceptions----\n");
  }
