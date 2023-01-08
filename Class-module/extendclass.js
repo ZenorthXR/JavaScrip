@@ -5,7 +5,7 @@ class media {
     }
 }
 
-class song extends media{
+class song extends media {
     constructor(songDate) {
         super(songDate);
         this.artist = songDate.artist;

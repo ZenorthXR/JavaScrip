@@ -7,7 +7,7 @@ class dog {
     }
 
     // A static method 
-    static bark () {
+    static bark() {
         console.log("Woof!");
     }
 }

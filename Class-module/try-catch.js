@@ -9,34 +9,34 @@ function logError(theException) {
 //try-catch
 try {
     criticalCode();
- } catch(ex) {
+} catch (ex) {
     console.log("Got an error");
     logError(ex);
- }
+}
 
- //throwing in try-catch 
- console.log("\n----Throwing in Try-catch----\n");
+//throwing in try-catch 
+console.log("\n----Throwing in Try-catch----\n");
 
- try {
+try {
     throw "An exception that is thrown every time";
- } catch (ex) {
+} catch (ex) {
     console.log("Got an error");
     logError(ex);
- }
+}
 
- //try-catch Finally
- console.log("\n----Try-catch Finally----\n");
+//try-catch Finally
+console.log("\n----Try-catch Finally----\n");
 
- try {
+try {
     criticalCode();
- } catch (ex) {
+} catch (ex) {
     console.log("Got an error");
     logError(ex);
- } finally {
+} finally {
     console.log("Code that always will run");
- }
+}
 
- 
- function hello() {
+
+function hello() {
     console.log("\n----Throwing Exceptions----\n");
- }
+}
