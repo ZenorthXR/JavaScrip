@@ -30,3 +30,6 @@ function missingDigits(numStr) {
 console.log(missingDigits(numStr1));
 console.log(missingDigits(numStr2));
 console.log(missingDigits(numStr3));
+
+
+console.log("asdasdasdasdasd");
