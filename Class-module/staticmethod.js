@@ -13,3 +13,6 @@ class dog {
 }
 const myDog = new dog("Buster");
 myDog.introduce();
+dog.bark();
+// myDog.bark();
+// dog.introduce();
