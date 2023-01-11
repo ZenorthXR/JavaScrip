@@ -15,14 +15,15 @@ function missingDigits(numStr) {
     for (let n = 0; n < 10; n++) {
         if (numStr.includes(n)) {
             n++;
-        } else { temp[count] = n ; count++; }
+        } else { temp[count] = n; count++; }
     }
     switch (numStr) {
-        case numStr2: return `${numStr2} ${NoMissing}`; 
+        case numStr2: return `${numStr2} ${NoMissing}`;
         case numStr1: return `${numStr} Missing Digit = ${temp}`;
         case numStr3: {
             let op = temp[0] + ', ' + temp[1]
-            return `${numStr} Missing Digit = ${op}`;}
+            return `${numStr} Missing Digit = ${op}`;
+        }
     }
 }
 
