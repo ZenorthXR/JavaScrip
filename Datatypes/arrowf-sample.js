@@ -19,3 +19,5 @@ checkWeight(25); // Print: Baggage weight : 25 kilograms
 // Concise arrow functions
 const multiply = (a,b) => a + b;
 console.log(multiply(2,30)); //print: 60
+
+
