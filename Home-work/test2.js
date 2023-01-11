@@ -13,52 +13,27 @@ function missingDigits(numStr) {
     let temp = [];
     let count = 0;
 
-    let cou1 = 0; let cou2 = 0; let cou3 = 0; let cou4 = 0; let cou5 = 0;
-    let cou6 = 0; let cou7 = 0; let cou8 = 0; let cou9 = 0; let cou10 = 0;
+    let cou = [0,0,0,0,0,0,0,0,0,0];
 
     for (let index = 0; index < numStr.length; index++) {
         switch (numStr[index]) {
-            case "1": ++cou1; break; //cou 1 
-            case "2": ++cou2; break; // 1
-            case "3": ++cou3; break; // 1
-            case "4": ++cou4; break; // 1
-            case "5": ++cou5; break; // 1
-            case "6": ++cou6; break; // 1
-            case "7": ++cou7; break; // 1
-            case "8": ++cou8; break; // 1 
-            case "9": ++cou9; break; // 1
-            case "0": ++cou10; break; // 0
+            case "1": ++cou[1]; break; //cou 1 
+            case "2": ++cou[2]; break; // 1
+            case "3": ++cou[3]; break; // 1
+            case "4": ++cou[4]; break; // 1
+            case "5": ++cou[5]; break; // 1
+            case "6": ++cou[6]; break; // 1
+            case "7": ++cou[7]; break; // 1
+            case "8": ++cou[8]; break; // 1 
+            case "9": ++cou[9]; break; // 1
+            case "0": ++cou[0]; break; // 0
         }
     }
-    if (cou1 == 0) {
-        temp[count] = 1; count++;
-    }
-    if (cou2 == 0) {
-        temp[count] = 2; count++;
-    }
-    if (cou3 == 0) {
-        temp[count] = 3; count++;
-    }
-    if (cou4 == 0) {
-        temp[count] = 4; count++;
-    }
-    if (cou5 == 0) {
-        temp[count] = 5; count++;
-    }
-    if (cou6 == 0) {
-        temp[count] = 6; count++;
-    }
-    if (cou7 == 0) {
-        temp[count] = 7; count++;
-    }
-    if (cou8 == 0) {
-        temp[count] = 8; count++;
-    }
-    if (cou9 == 0) {
-        temp[count] = 9; count++;
-    }
-    if (cou10 == 0) {
-        temp[count] = 0; count++;
+    for (let n = 0 ; n < 10 ; n++) {
+        if (cou[n] == 0 ) {
+            temp[count] = n;
+            count++;
+        }
     }
     switch (numStr) {
         case numStr2: return `${numStr2} ${NoMissing}`;
