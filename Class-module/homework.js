@@ -8,7 +8,6 @@ const numStr1 = "123456789";
 const numStr2 = "53657687691428890";
 const numStr3 = "1981023568910";
 
-
 function missingDigits(numStr) {
     let NoMissing = "has no missing digits";
     let temp = [];
