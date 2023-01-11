@@ -10,6 +10,7 @@ const numStr3 = "1981023568910";
 
 function missingDigits(numStr) {
     let NoMissing = "has no missing digits";
+    let missing = "Missing Digit ="
     let temp = [];
     let count = 0;
 
@@ -37,10 +38,10 @@ function missingDigits(numStr) {
     }
     switch (numStr) {
         case numStr2: return `${numStr2} ${NoMissing}`;
-        case numStr1: return `${numStr} Missing Digit = ${temp}`;
+        case numStr1: return `${numStr} ${missing} ${temp}`;
         case numStr3: { 
             let output = temp[0] + ', ' + temp[1]
-            return `${numStr} Missing Digit = ${output}`;
+            return `${numStr} ${missing} ${output}`;
         }
     }
 }
