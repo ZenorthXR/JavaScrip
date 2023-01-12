@@ -15,7 +15,7 @@ function missingDigits(numStr) {
     let count = 0;
     for (let n = 0; n < 10; n++) {
         if (numStr.includes(n)) {
-            n++;
+            n=n;
         } else { temp[count] = n; count++; }
     }
     switch (numStr) {
