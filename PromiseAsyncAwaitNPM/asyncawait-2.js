@@ -1,10 +1,12 @@
 function promiseTimeout(ms) {
+    console.log(`Do something`);
     return new Promise((resolve, reject) => {
-        setTimeout((resolve,ms));
+        setTimeout(resolve,ms);
     });
 }
 
 async function longRunningOperation() {
+    console.log(`Doit like banana`);
     //logic
     return 42;
 }
@@ -19,5 +21,6 @@ async function run() {
 
     console.log("Stop!!");
 }
-
+console.log(`before run`);
 run();
+console.log(`After run`);
